@@ -1,0 +1,6 @@
+example corp:
+  inscope:
+    - "*.example.com"
+    - "example.com"
+  outscope:
+    - "mail.example.com"
