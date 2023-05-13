@@ -1,1 +1,2 @@
-*.aol.com
+example.com
+*.example.com
