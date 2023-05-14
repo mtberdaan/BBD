@@ -1,10 +1,10 @@
-example corp:
+name: example corp
   inscope:
     - "*.example.com"
     - "example.com"
   outscope:
     - "mail.example.com"
-evil corp:
+name: evil corp
   inscope:
     - "*.evil.com"
     - "evil.com"
