@@ -1,3 +1,8 @@
-domains:
+domains-in:
   - example.com
+  - *.example.com
   - evil.com
+  - *.evil.com
+domains-out:
+  - mail.example.com
+  - mail.evil.com
