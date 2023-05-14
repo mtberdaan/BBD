@@ -1,13 +1,13 @@
 domains:
   - example:
-    inscope:
-      - "*.example.com"
-      - "example.com"
-    outscope:
-      - "mail.example.com"
+      inscope:
+        - "*.example.com"
+        - "example.com"
+      outscope:
+        - "mail.example.com"
   - evil:
-    inscope:
-      - "*.evil.com"
-      - "evil.com"
-    outscope:
-      - "mail.evil.com"
+      inscope:
+        - "*.evil.com"
+        - "evil.com"
+      outscope:
+        - "mail.evil.com"
