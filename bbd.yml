@@ -4,3 +4,9 @@ example corp:
     - "example.com"
   outscope:
     - "mail.example.com"
+evil corp:
+  inscope:
+    - "*.evil.com"
+    - "evil.com"
+  outscope:
+    - "mail.evil.com"
