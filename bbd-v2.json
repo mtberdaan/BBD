@@ -1,26 +1,24 @@
 {
   "domains": [
     {
-      "example": {
-        "inscope": [
-          "*.example.com",
-          "example.com"
-        ],
-        "outscope": [
-          "mail.example.com"
-        ]
-      }
+      "name": "example",
+      "inscope": [
+        "*.example.com",
+        "example.com"
+      ],
+      "outscope": 
+        "mail.example.com"
+      ]
     },
     {
-      "evil": {
-        "inscope": [
-          "*.evil.com",
-          "evil.com"
-        ],
-        "outscope": [
-          "mail.evil.com"
-        ]
-      }
+      "name": "evil", 
+      "inscope": [
+        "*.evil.com",
+        "evil.com"
+      ],
+      "outscope": [
+        "mail.evil.com"
+      ]
     }
   ]
 }
